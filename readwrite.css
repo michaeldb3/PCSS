@@ -1,0 +1,21 @@
+#one{
+    font: Italic 70px font1;
+    color: pnk;
+}
+#two{
+    font: bold 40px font2;
+    color: grn;
+}
+#three{
+    font: font3;
+}
+.sample{
+    text-align: center;
+}
+#bodyid{
+    background: grey;
+}
+h1{
+    font: bold 55px font1;
+    color: grn
+}
