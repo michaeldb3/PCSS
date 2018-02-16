@@ -1,0 +1,22 @@
+ /* --- Pyle Sheet --- */
+#one{
+    font: Italic 70px Harlow Solid;
+    color: pink;
+}
+#two{
+    font: bold 40px Mistral;
+    color: green;
+}
+#three{
+    font: Italic 35px Times New Roman;
+}
+.sample{
+    text-align: center;
+}
+#bodyid{
+    background: #454545;
+}
+h1{
+    font: bold 55px Harlow Solid;
+    color: green
+}
