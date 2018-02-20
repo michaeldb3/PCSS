@@ -1,3 +1,26 @@
+News:
+(Read here for any changes, look at bottom for old news)
+	02/19/2018:
+		Some changes have been completed and are being finalized. These changes
+	are going to make variable declaration easier, and a decorator is going to be
+	added to make these declarations easier. 
+	No longer will you have to state "return locals()" in your variables function. Now
+	you will simply declare you variables inside a dedicated function, and simply 
+	decorate that function with the new function decorator that will be released
+	soon.
+
+	e.g.:
+	@return_variables_to_compiler
+	def foo_variables_list:
+		font1 = "bar"
+		font2 = "baz"
+
+	no more:
+	def foo_variables_list:
+		font1 = "bar"
+		font2 = "baz"
+		return locals()	
+
 	Pyle Sheets (or PCSS as you'll often see both names) is an opportunity for everyone to 
 enjoy more opportunities to use Python while engaged in web development. Pyle Sheets is a 
 competitor with LESS, SASS and other modifications of Cascading Style Sheets that offer
